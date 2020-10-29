@@ -498,7 +498,7 @@ body{
         box-shadow: 0px 25px 30px #ddd;
         .card-title{
             h2{
-                font-size: 30;
+                font-size: 30px;
                 font-family: 'Oswald', sans-serif;
                 font-weight: 500;
                 color: #353535;
@@ -674,10 +674,6 @@ body{
         margin-top: 60px;
         .card{
             border-radius: 0 30px 30px 0;
-            // padding-left: 0;
-            // padding-right: 0;
-            // .card-title{
-            // }
             .card-body{
                 ul{
                     margin: 0;
@@ -711,81 +707,6 @@ body{
 /*<----------*******---------->*/
 /*<--control-from Section Start->*/
 /*<----------*******---------->*/
-
-
-
-// .control-from-anywhere{
-//     position: relative;
-//     .control-from-anywhere-bg{
-//         background: url(../img/control-from-bg.png);
-//         background-position: top right;
-//         background-size: cover;
-//         height: 862px;
-//         background-repeat: no-repeat;
-//     }
-
-//     .control-white-bg-area{
-//         position: absolute;
-//         bottom: 0;
-//         background-color: #fff;
-//         width: 780px;               /*bug*/
-//         .control-from-content-section{
-//             padding: 54px 0;
-//             padding-right: 20px;
-//             padding-left: 130px;
-//             .control-from-content-header-area{
-//                 h4{
-                    // font-size: 16px;
-                    // font-family: 'Poppins', 'Sans-serif';
-                    // font-weight: 400;
-                    // color: #000;
-                    // padding-top: 58px;
-//                 }
-//                 h2{
-                    // font-size: 50px;
-                    // font-family: 'Poppins', 'Sans-serif';
-                    // font-weight: 400;
-                    // color: #000;
-                    // margin-top: 13px;
-                    // margin-bottom: 18px;
-//                 }                
-//             }
-//             .control-from-content-body-area{     
-//                 p{
-                    // font-size: 18px;
-                    // font-family: 'Poppins', 'Sans-serif';
-                    // font-weight: 400;
-                    // color: #000;
-//                 }
-//             }
-//             .control-from-content-footer-area{
-//                 margin-top: 18px;
-//                 a{
-//                     button{
-                    // color: #fff;
-                    // padding: 15px 45px;
-                    // font-size: 18px;
-                    // font-weight: 500;
-                    // background: transparent linear-gradient(90deg, #DB0011 0%, #FF1C26 100%) 0% 0% no-repeat padding-box;
-                    // box-shadow: 0px 0px 15px #FF707087;
-                    // border-radius: 33px;
-                    // opacity: 1;
-                    // border: none;
-                    // outline: none;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
-
-
-
-
-
-
-
-
 .control-from-anywhere-section{
     .control-from-anywhere-bg{
         background: url(../img/control-from-bg.png);
@@ -847,24 +768,9 @@ body{
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*<----------*******---------->*/
 /*<--Footer Section Start->*/
 /*<----------*******---------->*/
-
 .footer-section-area{
     background-color: #FFFFFF;
     padding: 100px 0;
@@ -985,12 +891,6 @@ body{
         }
     }
 }
-
-
-
-
-
-
 /*<----------*******---------->*/
 /*<--Media Query Start->*/
 /*<----------*******---------->*/
@@ -1023,35 +923,72 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 768px) and (max-width: 991px){
-    .header-section .main-navbar .navbar-btn{
-        margin-left: 0;
+    .header-section{
+        display: none;
     }
-    .header-section .main-navbar a{
-        font-size: inherit;
-    }
-    .header-section .header-title-section .hero-heading{
-        font-size: 60px;
+}
+
+@media screen and (max-width: 767px){
+    .header-section{
+        display: none;
     }
 
-
-    .header-section .main-navbar a{
-        padding: 0 10px;
+    .next-gen-section .next-gen-header-area h2{
+        font-size: 40px;
+        margin-bottom: 26px
     }
-    .header-section .main-navbar .navbar-btn .sign-in{
-        padding: 10px 24px;
+    .next-gen-section .next-gen-item01{
+        margin: 10px 0;
+    }
+    .section-padding{
+        padding: 0;
+    }
+    .meet-olarm-kit-section .meet-olarm-kit-header-area h5{
+        margin: 15px 0;
+    }
+    .meet-olarm-kit-section .meet-olarm-kit-header-area h2{
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+
+    .meet-olarm-kit-section .card{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .home-automotion-section-area .home-automotion-section-inner .home-automotion-content-area{
+        margin: 40px 0;
+    }
+    .home-automotion-section-area .home-automotion-section-inner .home-automotion-content-area h2{
+        font-size: 30px;
+    }
+    .home-automotion-section-area .home-automotion-section-inner .home-automotion-img-group2{
+        margin: 20px 0;
+    }
+    .home-automotion-section-area .home-automotion-section-inner .home-automotion-content-area h4{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .protection-plan-section{
+        padding: 50px 0;
+    }
+    .protection-plan-section .protection-plan-header-area h2{
+        font-size: 40px;
+    }
+    .protection-plan-section .protection-plan-header-area{
+        padding-bottom: 0;
+    }
+    .protection-plan-section .package1 .card, .protection-plan-section .package2 .card, .protection-plan-section .package3 .card{
+        border-radius: 30px;
+    }
+    .protection-plan-section .package1{
+        margin-bottom: 20px;
+    }
+    .footer-section-area {
+        padding: 50px 0;
+    }
+    .footer-widget-item {
+        margin: 15px 0;
     }
 }
 
@@ -1074,8 +1011,20 @@ body{
 /*<--Media Query Start->*/
 /*<----------*******---------->*/
 
-@media screen and(max-width: 991px){
-//    .main-navbar ul{
-//        display: none;
-//    } 
+@media screen and(max-width: 576px){
+    .next-gen-section .next-gen-header-area h2{
+        font-size: 30px;
+    }
+
+    .home-automotion-section-area .home-automotion-section-inner .home-automotion-img-group3 .home-automotion-img-item:last-child{
+        margin-left: 0;
+    }
+
+    .protection-plan-section .package1{
+        margin-bottom: 20px;
+    }
+    ul.home-automotion-img-group3 {
+        display: flex;
+    }
+
 }

@@ -404,7 +404,7 @@ body {
     padding: 68px 38px;
     box-shadow: 0px 25px 30px #ddd; }
     .protection-plan-section .card .card-title h2 {
-      font-size: 30;
+      font-size: 30px;
       font-family: 'Oswald', sans-serif;
       font-weight: 500;
       color: #353535; }
@@ -704,17 +704,60 @@ body {
     width: 49%; } }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .header-section .main-navbar .navbar-btn {
-    margin-left: 0; }
-  .header-section .main-navbar a {
-    font-size: inherit; }
-  .header-section .header-title-section .hero-heading {
-    font-size: 60px; }
-  .header-section .main-navbar a {
-    padding: 0 10px; }
-  .header-section .main-navbar .navbar-btn .sign-in {
-    padding: 10px 24px; } }
+  .header-section {
+    display: none; } }
+
+@media screen and (max-width: 767px) {
+  .header-section {
+    display: none; }
+  .next-gen-section .next-gen-header-area h2 {
+    font-size: 40px;
+    margin-bottom: 26px; }
+  .next-gen-section .next-gen-item01 {
+    margin: 10px 0; }
+  .section-padding {
+    padding: 0; }
+  .meet-olarm-kit-section .meet-olarm-kit-header-area h5 {
+    margin: 15px 0; }
+  .meet-olarm-kit-section .meet-olarm-kit-header-area h2 {
+    font-size: 40px;
+    margin-bottom: 60px; }
+  .meet-olarm-kit-section .card {
+    width: 100%;
+    margin-bottom: 100px; }
+  .home-automotion-section-area .home-automotion-section-inner .home-automotion-content-area {
+    margin: 40px 0; }
+  .home-automotion-section-area .home-automotion-section-inner .home-automotion-content-area h2 {
+    font-size: 30px; }
+  .home-automotion-section-area .home-automotion-section-inner .home-automotion-img-group2 {
+    margin: 20px 0; }
+  .home-automotion-section-area .home-automotion-section-inner .home-automotion-content-area h4 {
+    margin-top: 0;
+    margin-bottom: 20px; }
+  .protection-plan-section {
+    padding: 50px 0; }
+  .protection-plan-section .protection-plan-header-area h2 {
+    font-size: 40px; }
+  .protection-plan-section .protection-plan-header-area {
+    padding-bottom: 0; }
+  .protection-plan-section .package1 .card, .protection-plan-section .package2 .card, .protection-plan-section .package3 .card {
+    border-radius: 30px; }
+  .protection-plan-section .package1 {
+    margin-bottom: 20px; }
+  .footer-section-area {
+    padding: 50px 0; }
+  .footer-widget-item {
+    margin: 15px 0; } }
 
 /*<----------*******---------->*/
 /*<--Media Query Start->*/
 /*<----------*******---------->*/
+@media screen and (max-width: 576px) {
+  .next-gen-section .next-gen-header-area h2 {
+    font-size: 30px; }
+  .home-automotion-section-area .home-automotion-section-inner .home-automotion-img-group3 .home-automotion-img-item:last-child {
+    margin-left: 0; }
+  .protection-plan-section .package1 {
+    margin-bottom: 20px; }
+  ul.home-automotion-img-group3 {
+    display: flex; } }
