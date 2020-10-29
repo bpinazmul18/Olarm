@@ -1,0 +1,17 @@
+{
+  "name": "internship-project",
+  "version": "1.0.0",
+  "description": "Performance-Management",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Nazmul",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "4.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}

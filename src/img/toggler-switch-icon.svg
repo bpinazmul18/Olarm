@@ -1,0 +1,33 @@
+<svg id="Group_11422" data-name="Group 11422" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.017" height="62.017" viewBox="0 0 62.017 62.017">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#666"/>
+      <stop offset="0.07" stop-color="#7c7c7c"/>
+      <stop offset="0.21" stop-color="#a4a4a4"/>
+      <stop offset="0.355" stop-color="#c5c5c5"/>
+      <stop offset="0.503" stop-color="#dedede"/>
+      <stop offset="0.656" stop-color="#f0f0f0"/>
+      <stop offset="0.817" stop-color="#fbfbfb"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.227" y1="0.182" x2="1.42" y2="1.57" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff1c26"/>
+      <stop offset="0.136" stop-color="#ff1c26"/>
+      <stop offset="0.301" stop-color="#c21a22"/>
+      <stop offset="0.589" stop-color="#910007"/>
+      <stop offset="1" stop-color="#910007"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.076" y1="-0.312" x2="1.064" y2="1.295" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff1e1e"/>
+      <stop offset="0.202" stop-color="#ff1e1e"/>
+      <stop offset="0.728" stop-color="#c94c52"/>
+      <stop offset="0.996" stop-color="#ff1c26"/>
+      <stop offset="1" stop-color="#4add75"/>
+    </linearGradient>
+  </defs>
+  <circle id="Ellipse_97" data-name="Ellipse 97" cx="31.009" cy="31.009" r="31.009" fill="url(#radial-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+  <g id="Group_11421" data-name="Group 11421" transform="translate(1.704 6.199)">
+    <circle id="Ellipse_98" data-name="Ellipse 98" cx="20.985" cy="20.985" r="20.985" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_99" data-name="Ellipse 99" cx="17.761" cy="17.761" r="17.761" transform="translate(0.454 35.454) rotate(-80.172)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
