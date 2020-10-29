@@ -927,12 +927,18 @@ body{
     .header-section{
         display: none;
     }
+    .protection-plan-section .package1 .card, .protection-plan-section .package2 .card, .protection-plan-section .package3 .card{
+        border-radius: 30px;
+    }
+    .protection-plan-section .package1 .card {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 767px){
-    .header-section{
-        display: none;
-    }
+    // .header-section{
+    //     display: none;
+    // }
 
     .next-gen-section .next-gen-header-area h2{
         font-size: 40px;
@@ -984,6 +990,7 @@ body{
     .protection-plan-section .package1{
         margin-bottom: 20px;
     }
+    
     .footer-section-area {
         padding: 50px 0;
     }

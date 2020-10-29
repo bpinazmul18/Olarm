@@ -705,11 +705,13 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .header-section {
-    display: none; } }
+    display: none; }
+  .protection-plan-section .package1 .card, .protection-plan-section .package2 .card, .protection-plan-section .package3 .card {
+    border-radius: 30px; }
+  .protection-plan-section .package1 .card {
+    margin-bottom: 20px; } }
 
 @media screen and (max-width: 767px) {
-  .header-section {
-    display: none; }
   .next-gen-section .next-gen-header-area h2 {
     font-size: 40px;
     margin-bottom: 26px; }
