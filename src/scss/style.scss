@@ -150,7 +150,6 @@ body{
     position: absolute;
     bottom: 0;
     width: 100%;
-    // display: none;
     .quick-section-input-area{
         .quick-form-group-item {
             display: flex;
@@ -959,6 +958,9 @@ body{
         display: block;
         cursor: pointer;
     }
+    .main-navbar.active ul li {
+        display: block;
+    }
     .main-navbar{
         display: none;
     }
@@ -1009,33 +1011,36 @@ body{
         display: grid;
         text-align: inherit;
     }
+    .main-navbar.active ul li {
+        display: block;
+    }
 
-.toggler-btn {
-    display: block;
-    cursor: pointer;
-}
-.main-navbar{
-    display: none;
-}
-.main-navbar.active{
-    margin: 0;
-    display: block;
-    position: absolute;
-    top: 0;
-    background: #29191a;
-    z-index: 3;
-    width: 100%;
-    left: 0;
-    height: auto;
-    ul{
-        li{
-            a{
-                display: flex;
-                padding: 20px 32px;
+    .toggler-btn {
+        display: block;
+        cursor: pointer;
+    }
+    .main-navbar{
+        display: none;
+    }
+    .main-navbar.active{
+        margin: 0;
+        display: block;
+        position: absolute;
+        top: 0;
+        background: #29191a;
+        z-index: 3;
+        width: 100%;
+        left: 0;
+        height: auto;
+        ul{
+            li{
+                a{
+                    display: flex;
+                    padding: 20px 32px;
+                }
             }
         }
     }
-}
     .header-section .header-title-section{
         margin-top: 0;
     }
@@ -1292,6 +1297,4 @@ body{
 
 
 
-.main-navbar.active ul li {
-    display: block;
-}
+

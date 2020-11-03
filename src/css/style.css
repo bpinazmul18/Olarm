@@ -733,6 +733,8 @@ body {
   .toggler-btn {
     display: block;
     cursor: pointer; }
+  .main-navbar.active ul li {
+    display: block; }
   .main-navbar {
     display: none; }
   .main-navbar.active {
@@ -767,6 +769,8 @@ body {
     width: 100% !important;
     display: grid;
     text-align: inherit; }
+  .main-navbar.active ul li {
+    display: block; }
   .toggler-btn {
     display: block;
     cursor: pointer; }
@@ -947,6 +951,3 @@ body {
     margin-bottom: 15px; }
   .footer-section-area .footer-widget-nav-links {
     margin-bottom: 30px; } }
-
-.main-navbar.active ul li {
-  display: block; }
