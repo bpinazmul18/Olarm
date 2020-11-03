@@ -11,6 +11,20 @@ body{
 /*<----------*******---------->*/
 /*<--Header Section Start->*/
 /*<----------*******---------->*/
+.toggler-btn {
+    display: none;
+    float: right;
+    margin-top: -48px;
+    margin-right: 50px;
+    position: absolute;
+    top: auto;
+    right: 0;
+
+    .fa-bars{
+        color: #fff;
+        font-size: 30px;
+    }
+}
 .header-bg{
     background: url(../img/header-bg.png);
     height: 100vh;
@@ -25,11 +39,11 @@ body{
     }
     .main-navbar{
         margin: 4px;
+        padding-top: 8px;
         ul{
             list-style-type: none;
             margin: 0;
             padding: 0;
-            overflow: hidden;
         }
         li{
             display: inline-block;
@@ -136,7 +150,7 @@ body{
     position: absolute;
     bottom: 0;
     width: 100%;
-    visibility: hidden;
+    // display: none;
     .quick-section-input-area{
         .quick-form-group-item {
             display: flex;
@@ -199,7 +213,7 @@ body{
         input.quick-start-btn {
             position: absolute;
             top: 0;
-            right: -100px;
+            right: 0;
             border: 0;
             width: auto;
             height: 100%;
@@ -250,6 +264,7 @@ body{
             border: 2px solid #fff;
             border-radius: 50%;
             padding: 1%;
+            z-index: 1;
           }
     }
     .next-gen-item02{
@@ -267,6 +282,7 @@ body{
             border: 2px solid #fff;
             border-radius: 50%;
             padding: 2%;
+            z-index: 1;
           }
     }
     
@@ -306,14 +322,13 @@ body{
             color: #9B9B9B;
             font-size: 16px;
             font-family: 'Poppins', 'sans-serif';
-            margin-top: 72px;
-            margin-bottom: 15px;
+            margin-top: 60px;
         }
         & h2 {
             color: #000;
             font-size: 50px;
             font-family: 'Poppins', sans-serif;
-            margin-bottom: 243px;
+            margin-bottom: 150px;
         }
     }
     .card {
@@ -322,7 +337,7 @@ body{
         background: #FFFFFF 0% 0% no-repeat padding-box;
         border-radius: 44px;
         padding: 50px 60px;
-        margin-bottom: 600px;
+        margin-bottom: 400px;
         
     }
 }
@@ -367,6 +382,7 @@ body{
             font-family: 'Poppins', sans-serif;
             font-weight: 500; 
             margin-top: 44px;
+            margin-bottom: 20px;
             }
         }
         .home-automotion-img-group {
@@ -775,8 +791,6 @@ body{
     background-color: #FFFFFF;
     padding: 100px 0;
     .footer-widget-header img {
-        // width: 110px;
-        // height: 30px;
         margin-bottom: 28px;
     }
     
@@ -894,6 +908,17 @@ body{
 /*<----------*******---------->*/
 /*<--Media Query Start->*/
 /*<----------*******---------->*/
+@media screen and (max-width: 1199px){
+    .col-md-2{
+        width: 100% !important;
+        display: grid;
+        text-align: center;
+    }
+    .col-md-10{
+        width: 100% !important;
+        text-align: center;
+    }
+}
 @media screen and (min-width: 992px) and (max-width: 1199px){
     .header-section .main-navbar .navbar-btn{
         margin-left: 0;
@@ -924,8 +949,50 @@ body{
 
 
 @media screen and (min-width: 768px) and (max-width: 991px){
-    .header-section{
+    .col-md-2{
+        width: 100% !important;
+        display: grid;
+        text-align: center;
+    }
+    
+    .toggler-btn {
+        display: block;
+        cursor: pointer;
+    }
+    .main-navbar{
         display: none;
+    }
+    .main-navbar.active{
+        margin: 0;
+        display: block;
+        position: absolute;
+        top: 0;
+        background: #29191a;
+        z-index: 3;
+        width: 100%;
+        left: 0;
+        height: auto;
+        ul{
+            li{
+                a{
+                    display: flex;
+                    padding: 20px 32px;
+                }
+            }
+        }
+    }
+    .header-section .main-navbar a{
+        padding: 0 14px;
+        font-size: 15px;
+    }
+    .header-section .main-navbar .navbar-btn{
+        margin-left: 0;
+    }
+    .header-section .main-navbar .navbar-btn .sign-in{
+        padding: 10px 41px;
+    }
+    .header-section .header-title-section{
+        margin-top: 0;
     }
     .protection-plan-section .package1 .card, .protection-plan-section .package2 .card, .protection-plan-section .package3 .card{
         border-radius: 30px;
@@ -933,13 +1000,45 @@ body{
     .protection-plan-section .package1 .card {
         margin-bottom: 20px;
     }
+
 }
 
-@media screen and (max-width: 767px){
-    // .header-section{
-    //     display: none;
-    // }
+@media screen and (max-width: 992px){
+    .col-md-2{
+        width: 100% !important;
+        display: grid;
+        text-align: inherit;
+    }
 
+.toggler-btn {
+    display: block;
+    cursor: pointer;
+}
+.main-navbar{
+    display: none;
+}
+.main-navbar.active{
+    margin: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    background: #29191a;
+    z-index: 3;
+    width: 100%;
+    left: 0;
+    height: auto;
+    ul{
+        li{
+            a{
+                display: flex;
+                padding: 20px 32px;
+            }
+        }
+    }
+}
+    .header-section .header-title-section{
+        margin-top: 0;
+    }
     .next-gen-section .next-gen-header-area h2{
         font-size: 40px;
         margin-bottom: 26px
@@ -998,18 +1097,58 @@ body{
         margin: 15px 0;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 768px){
+    .header-bg{
+        height: 75vh;
+    }
+    .header-section .header-title-section .hero-heading{
+        font-size: 40px;
+    }
+    .col-md-2{
+        width: 100% !important;
+        display: grid;
+        text-align: inherit;
+    }
+    .quick-section .quick-section-input-area .quick-form-group-item{
+        flex-direction: column;
+    }
+    .quick-section .quick-section-input-area .quick-form-group-item .quick-section-item{
+        padding-bottom: 20px;
+    }
+    .quick-section .quick-section-input-area input.quick-start-btn{
+        position: inherit;
+        width: 100%;
+        margin: auto;
+        border-radius: 15px;
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+    .quick-section .quick-section-input-area .quick-form-group-item:before{
+        position: inherit;
+    }
+    .quick-form-group-item{
+        padding: 20px 14px;
+    }
+    .quick-section .quick-section-input-area .quick-form-group-item .quick-section-item::after{
+        position: inherit;
+        width: 0;
+    }
+    .quick-section{
+        position: inherit;
+        padding: 30px;
+        border-bottom: 1px solid #ddd
+    }
+    .next-gen-header-area{
+        margin-top: 20px;
+    }
+    .header-section .main-navbar .navbar-btn{
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    .control-from-anywhere-section .control-from-anywhere-bg .card:before{
+        border: none;
+    }
+}
 
 
 
@@ -1020,7 +1159,38 @@ body{
 
 @media screen and(max-width: 576px){
     .next-gen-section .next-gen-header-area h2{
+        font-size: 25px;
+    }
+    .next-gen-section .next-gen-text-area{
+        h3{
+            font-size: 20px;
+        }
+    }
+    .next-gen-section .next-gen-text-area a{
+        font-size: 15px;
+    }
+    .next-gen-section .next-gen-item01 .video-play-btn{
+        width: 50px;
+    }
+    .next-gen-section .next-gen-item02 .video-play-btn{
+        width: 50px;
+    }
+    .meet-olarm-kit-section .meet-olarm-kit-header-area h5{
+        font-size: 15px;
+    }
+
+    .meet-olarm-kit-section .meet-olarm-kit-header-area h2{
         font-size: 30px;
+        margin-bottom: 15px
+    }
+
+    .meet-olarm-kit-section .card{
+        padding: 25px 30px;
+        margin-bottom: 50px;
+    }
+
+    .home-automotion-section-area .home-automotion-section-inner .home-automotion-content-area p{
+        font-size: 15px;
     }
 
     .home-automotion-section-area .home-automotion-section-inner .home-automotion-img-group3 .home-automotion-img-item:last-child{
@@ -1030,8 +1200,98 @@ body{
     .protection-plan-section .package1{
         margin-bottom: 20px;
     }
+    .protection-plan-section .package1{
+        margin-bottom: 30px;
+    }
+    .protection-plan-section .card{
+        padding: 20px 25px;
+    }
+
+    .protection-plan-section .card .card-title h2{
+        font-size: 20px;
+    }
+    .protection-plan-section .card .card-title .review-area img{
+        margin: 0;
+    }
+    .protection-plan-section .card .card-title .price-area .price{
+        font-size: 40px;
+    }
+    .protection-plan-section .card .card-title h6{
+        font-size: 15px;
+    }
+    .protection-plan-section .card .card-body{
+        margin-top: 30px;
+    }
+
+    .protection-plan-section .package1 .card .card-body ul li{
+        margin-bottom: 20px;
+    }
+    .protection-plan-section .card .card-footer{
+        padding-bottom: 20px;
+    }
+    .protection-plan-section .card .card-footer button{
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+    .protection-plan-section .package2 .card .card-title{
+        margin-top: 0;
+    }
+    .protection-plan-section .package2 .card .card-title .price-area .price{
+        font-size: 40px;
+    }
+    .protection-plan-section .package2 .card .card-body ul li{
+        margin-bottom: 20px;
+    }
+    .protection-plan-section .package2 .card .card-body{
+        padding-bottom: 37px;
+    }
+    .protection-plan-section .package2 .card .card-footer{
+        padding-bottom: 20px;
+    }
+    .protection-plan-section .package2 .card .card-footer button{
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+    .protection-plan-section .package3 .card .card-body ul li{
+        margin-bottom: 20px;
+    }
     ul.home-automotion-img-group3 {
         display: flex;
     }
+    .header-section .header-title-section .hero-heading{
+        font-size: 30px;
+    }
+    .control-from-anywhere-section .control-from-anywhere-bg .card .card-title h2{
+        font-size: 25px;
+    }
+    .control-from-anywhere-section .control-from-anywhere-bg .card .card-body{
+        font-size: 14px;
+    }
+    .control-from-anywhere-section .control-from-anywhere-bg .card .card-footer a button{
+        font-size: 15px;
+        padding: 12px 30px;
+        box-shadow: 0px 0px 5px #FF707087;
+    }
 
+
+    .footer-section-area .footer-widget-header img{
+        margin-bottom: 15px;
+    }
+    .footer-section-area .footer-widget-body{
+        margin-bottom: 15px;
+    }
+    .footer-section-area .footer-widget-nav-links{
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+.main-navbar.active ul li {
+    display: block;
 }
