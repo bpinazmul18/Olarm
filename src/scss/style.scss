@@ -994,7 +994,7 @@ body{
         padding: 10px 41px;
     }
     .header-section .header-title-section{
-        margin-top: 0;
+        margin-top: 50px;
     }
     .protection-plan-section .package1 .card, .protection-plan-section .package2 .card, .protection-plan-section .package3 .card{
         border-radius: 30px;
@@ -1043,6 +1043,9 @@ body{
     }
     .header-section .header-title-section{
         margin-top: 0;
+    }
+    .header-section .header-title-section .hero-heading{
+        font-size: 60px;
     }
     .next-gen-section .next-gen-header-area h2{
         font-size: 40px;
@@ -1119,11 +1122,11 @@ body{
     }
     .quick-section .quick-section-input-area input.quick-start-btn{
         position: inherit;
-        width: 100%;
         margin: auto;
         border-radius: 15px;
-        padding: 20px 0;
+        padding: 20px 30px;
         margin-bottom: 20px;
+        display: block;
     }
     .quick-section .quick-section-input-area .quick-form-group-item:before{
         position: inherit;
