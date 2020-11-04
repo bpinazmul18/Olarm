@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 body{
-    font-family: 'Poppins', 'sens-serif';
+    font-family: 'Poppins', sans-serif;
 }
 
 .section-padding{
@@ -101,7 +101,7 @@ body{
             }
         }
         .heading-para{
-            font-family: 'Poppins', 'sens-serif';
+            font-family: 'Poppins', sans-serif;
             font-weight: 400;
             color: #fff;
             font-size: 18px;
@@ -178,7 +178,7 @@ body{
                     width: auto;
                     display: block;
                     font-size: 16px;
-                    font-family: 'Poppins';
+                    font-family: 'Poppins', sans-serif;
                     font-weight: 400;
                     color: #000;
                 }
@@ -189,7 +189,7 @@ body{
                 label{
                     display: block;
                     font-size: 14px;
-                    font-family: 'Poppins';
+                    font-family: 'Poppins', sans-serif;
                     font-weight: 400;
                     color: #9B9B9B;
                 }
@@ -221,7 +221,7 @@ body{
             background-color: #FF5C63;
             padding: 0 25px;
             font-size: 18px;
-            font-family: 'Poppins';
+            font-family: 'Poppins', sans-serif;
             font-weight: 600;
             color: #fff;
         }
@@ -235,7 +235,7 @@ body{
 
 .next-gen-section{
     .next-gen-header-area{
-        font-family: 'poppins', 'sans-serif';
+        font-family: 'Poppins', sans-serif;
         h5 {
             font-size: 16px;
             color: #9B9B9B;
@@ -514,7 +514,7 @@ body{
         .card-title{
             h2{
                 font-size: 30px;
-                font-family: 'Oswald', sans-serif;
+                font-family: 'Poppins', sans-serif;
                 font-weight: 500;
                 color: #353535;
             }
@@ -536,7 +536,7 @@ body{
             }
             h6{
                 font-size: 17px;
-                font-family: 'Oswald';
+                font-family: 'Oswald', sans-serif;
                 font-weight: 400;
                 color: #353535;
                 margin-top: 0;
@@ -547,7 +547,7 @@ body{
             padding-bottom: 37px;
             ul{
                 li{
-                    font-family: 'Poppins';
+                    font-family: 'Poppins', sans-serif;
                     font-weight: 400;
                     font-size: 15px;
                     color: #353535;
@@ -637,7 +637,7 @@ body{
                     padding: 0;
                     list-style-type: none;
                     li{
-                        font-family: 'Poppins';
+                        font-family: 'Poppins', sans-serif;
                         font-weight: 400;
                         font-size: 15px;
                         color: #FFFFFF;
@@ -703,14 +703,7 @@ body{
                 }
             }
         }
-    }
-
-
-
-
-
-
-    
+    } 
 }
 
 
@@ -746,20 +739,20 @@ body{
             .card-title{
                 h4{
                     font-size: 16px;
-                    font-family: 'Poppins', 'Sans-serif';
+                    font-family: 'Poppins', sans-serif;
                     font-weight: 400;
                     color: #000;
                 }
                 h2{
                     font-size: 50px;
-                    font-family: 'Poppins', 'Sans-serif';
+                    font-family: 'Poppins', sans-serif;
                     font-weight: 400;
                     color: #000;
                 }
             }
             .card-body{
                 font-size: 18px;
-                font-family: 'Poppins', 'Sans-serif';
+                font-family: 'Poppins', sans-serif;
                 font-weight: 400;
                 color: #000;
                 margin: 18px 0;
@@ -799,7 +792,7 @@ body{
         p {
             font-size: 16px;
             font-weight: 400;
-            font-family: 'Poppins', 'Sans-serif';
+            font-family: 'Poppins', sans-serif;
         }
         &:after {
             content: "";
@@ -836,7 +829,7 @@ body{
         padding: 0;
         list-style: none;
         font-size: 16px;
-        font-family: 'Poppins', 'Sans-serif';
+        font-family: 'Poppins', sans-serif;
         font-weight: 400;
         li {
             margin-bottom: 20px;
@@ -853,7 +846,7 @@ body{
     }
     .footer-widget-form{
         h3{
-            font-family: 'Poppins', 'Sans-serif';
+            font-family: 'Poppins', sans-serif;
             font-size: 19px;
             font-weight: 600;
             margin-top: 0;
@@ -892,13 +885,13 @@ body{
             right: 0;
             border-radius: 30px;
             font-size: 16px;
-            font-family: 'Poppins', 'Sans-serif';
+            font-family: 'Poppins', sans-serif;
             font-weight: 400;
         }
         p.copyrights {
             margin-top: 38px;
             font-size: 16px;
-            font-family: 'Poppins', 'Sans-serif';
+            font-family: 'Poppins', sans-serif;
             font-weight: 400;
             color: #C7C7C7;
         }
